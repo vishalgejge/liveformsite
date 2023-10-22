@@ -132,7 +132,7 @@ const Form = () => {
           ))}
         </select>
         <br />
-        <input type="text" value={countryPhoneCode + phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} required />
+        <input type="text" placeholder="Phone Number" value={countryPhoneCode + phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} required />
         <br />
         <button type="submit">Submit</button>
       </form>
