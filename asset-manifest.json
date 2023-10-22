@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/liveformsite/static/css/main.019d1768.css",
+    "main.js": "/liveformsite/static/js/main.fb2fd512.js",
+    "static/js/787.23ff35d9.chunk.js": "/liveformsite/static/js/787.23ff35d9.chunk.js",
+    "static/media/background-2203989_1280.webp": "/liveformsite/static/media/background-2203989_1280.5604f346f51c87799bf7.webp",
+    "index.html": "/liveformsite/index.html",
+    "main.019d1768.css.map": "/liveformsite/static/css/main.019d1768.css.map",
+    "main.fb2fd512.js.map": "/liveformsite/static/js/main.fb2fd512.js.map",
+    "787.23ff35d9.chunk.js.map": "/liveformsite/static/js/787.23ff35d9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.019d1768.css",
+    "static/js/main.fb2fd512.js"
+  ]
+}
