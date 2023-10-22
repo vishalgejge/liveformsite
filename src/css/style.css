@@ -1,0 +1,71 @@
+body {
+    font-family: 'Nunito';
+    /* background-color: #f2f2f2; */
+    background-image: url('./images/background-2203989_1280.webp');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .this-div{
+    /* border: 1px solid black; */
+    color: #ffffff;
+    background-color: #00000017;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);  
+  }
+
+  .container {
+    background-color: #ffffff0c;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  input, select {
+    color: black;
+    background-color: #ffffff17;
+    padding: 10px 100px 10px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc53;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #0aaffb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #6ae4ff;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  }
+  

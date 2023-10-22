@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Form from './Form';
+// import Table from './Table';
 
 function App() {
+  const [formData, setFormData] = useState([]);
+
+  const addFormData = (data) => {
+    setFormData([...formData, data]);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Fill the form</h1>
+      <Form onSubmit={addFormData} />
+      <h4>Developed and designed by Vishal Gejge</h4>
+      {/* <h1>Submitted Data</h1> */}
+      {/* <Table data={formData} /> */}
     </div>
   );
 }
